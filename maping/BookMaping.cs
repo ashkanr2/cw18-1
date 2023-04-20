@@ -17,10 +17,10 @@ namespace cw18_1.maping
                 builder.HasOne(u => u.Genre).WithMany(x => x.Books).HasForeignKey(x=>x.GenreId);
 
             builder.HasData(
-            new Book { GenreId=1 ,Name = "Funny"},
-            new Book { GenreId=2 ,Name = "Asqar History"},
-            new Book { GenreId=3 , Name = "Math and Life"},
-            new Book { GenreId =1, Name = "Bamaze" }
+            new Book { Name = "Funny"},
+            new Book { Name = "Asqar History"},
+            new Book {  Name = "Math and Life"},
+            new Book {  Name = "Bamaze" }
             );
              }
    

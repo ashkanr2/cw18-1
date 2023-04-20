@@ -24,10 +24,10 @@ namespace cw18_1.maping
             b => b.HasOne<User>().WithMany().HasForeignKey("UserId").OnDelete(DeleteBehavior.Cascade),
             ue => ue.HasKey("UserId", "BookId"));
             builder.HasData(
-                new User { Id=-1,Name = "ashkan", Email = "razaviash21@gmail.com", Password = "1234", AddressId=1},
-                new User { Id=-2,Name = "mohamd ", Email = "mohamad@gmail.com", Password = "1234",AddressId=2 },
-                new User { Id=-3,Name = "farnosh", Email = "farnosh2@gmail.com", Password = "1234",AddressId=3 },
-                new User { Id=-4,Name = "mohamd2", Email = "mohamad123@gmail.com", Password = "1234",AddressId=4 }
+                new User { Id=-1,Name = "ashkan", Email = "razaviash21@gmail.com", Password = "1234"},
+                new User { Id=-2,Name = "mohamd ", Email = "mohamad@gmail.com", Password = "1234"},
+                new User { Id=-3,Name = "farnosh", Email = "farnosh2@gmail.com", Password = "1234"},
+                new User { Id=-4,Name = "mohamd2", Email = "mohamad123@gmail.com", Password = "1234"}
              );
         }
     }

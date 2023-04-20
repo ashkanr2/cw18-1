@@ -11,7 +11,7 @@ using cw18_1.DAL;
 namespace cw18_1.Migrations
 {
     [DbContext(typeof(LibraryDB))]
-    [Migration("20230420123902_first")]
+    [Migration("20230420124925_first")]
     partial class first
     {
         /// <inheritdoc />
@@ -180,7 +180,7 @@ namespace cw18_1.Migrations
                         new
                         {
                             Id = -1,
-                            AddressId = 1,
+                            AddressId = 0,
                             Email = "razaviash21@gmail.com",
                             Name = "ashkan",
                             Password = "1234"
@@ -188,7 +188,7 @@ namespace cw18_1.Migrations
                         new
                         {
                             Id = -2,
-                            AddressId = 2,
+                            AddressId = 0,
                             Email = "mohamad@gmail.com",
                             Name = "mohamd ",
                             Password = "1234"
@@ -196,7 +196,7 @@ namespace cw18_1.Migrations
                         new
                         {
                             Id = -3,
-                            AddressId = 3,
+                            AddressId = 0,
                             Email = "farnosh2@gmail.com",
                             Name = "farnosh",
                             Password = "1234"
@@ -204,7 +204,7 @@ namespace cw18_1.Migrations
                         new
                         {
                             Id = -4,
-                            AddressId = 4,
+                            AddressId = 0,
                             Email = "mohamad123@gmail.com",
                             Name = "mohamd2",
                             Password = "1234"

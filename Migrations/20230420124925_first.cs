@@ -150,10 +150,10 @@ namespace cw18_1.Migrations
                 columns: new[] { "Id", "AddressId", "Email", "Name", "Password" },
                 values: new object[,]
                 {
-                    { -4, 4, "mohamad123@gmail.com", "mohamd2", "1234" },
-                    { -3, 3, "farnosh2@gmail.com", "farnosh", "1234" },
-                    { -2, 2, "mohamad@gmail.com", "mohamd ", "1234" },
-                    { -1, 1, "razaviash21@gmail.com", "ashkan", "1234" }
+                    { -4, 0, "mohamad123@gmail.com", "mohamd2", "1234" },
+                    { -3, 0, "farnosh2@gmail.com", "farnosh", "1234" },
+                    { -2, 0, "mohamad@gmail.com", "mohamd ", "1234" },
+                    { -1, 0, "razaviash21@gmail.com", "ashkan", "1234" }
                 });
 
             migrationBuilder.CreateIndex(
